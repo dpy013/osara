@@ -1105,12 +1105,6 @@ void moveToChord(int direction, bool clearSelection=true, bool select=true) {
 	}
 	fakeFocus = FOCUS_NOTE;
 	ostringstream s;
-	if (settings::reportPositionMIDI) {
-		s << formatCursorPosition();
-		if (s.tellp() > 0) {
-			s << " ";
-		}
-	}
 	if (cursorMoved && !select && !isNoteSelected(take, chord.first.getIndex())) {
 		s << translate("unselected") << " ";
 	}
@@ -1132,6 +1126,12 @@ void moveToChord(int direction, bool clearSelection=true, bool select=true) {
 					translate_plural("{} muted", "{} muted", mutedCount), mutedCount);
 			}
 		}
+		if (s.tellp() > 0) {
+			s << " ";
+		}
+	}
+	if (settings::reportPositionMIDI) {
+		s << formatCursorPosition();
 	}
 	if (s.tellp() > 0) {
 		outputMessage(s);
