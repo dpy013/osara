@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: osara\n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
-"PO-Revision-Date: 2026-08-15 18:52\n"
+"PO-Revision-Date: 2026-09-01 21:10\n"
 
 msgid "enabled"
 msgstr "aktivert"
@@ -2380,8 +2380,14 @@ msgstr "Oktav opp"
 msgid "Octave down"
 msgstr "Oktav ned"
 
+msgid "Increase MIDI velocity"
+msgstr ""
+
 msgid "Increase MIDI channel"
 msgstr "Øk MIDI-kanal"
+
+msgid "Decrease MIDI velocity"
+msgstr ""
 
 msgid "Decrease MIDI channel"
 msgstr "Reduser MIDI-kanal"
@@ -2601,6 +2607,13 @@ msgstr "skjulte notenavn"
 
 msgid "length matching grid"
 msgstr "lengde samme som rutenett"
+
+#. Reported after closing REAPER windows. {} will be replaced
+#. with the number of windows; e.g. "2 windows closed".
+msgid "{} window closed"
+msgid_plural "{} windows closed"
+msgstr[0] ""
+msgstr[1] ""
 
 #. Reported when there are no tracks to navigate to.
 msgid "no tracks"
@@ -3225,6 +3238,9 @@ msgstr "OSARA: Fjern objekter/spor/innhold ut fra tidsutvalg/markører/kurvepunk
 msgid "OSARA: Toggle shortcut help"
 msgstr "OSARA: Slå av/på hjelp for snarveier"
 
+msgid "OSARA: Close all windows and focus arrange view"
+msgstr ""
+
 msgid "OSARA: Report edit/play cursor position, transport state and nearest markers and regions"
 msgstr "OSARA: Meld posisjon for redigering-/avspillingsmarkør, avspillingstilstand og nærmeste markører og regioner"
 
@@ -3471,10 +3487,6 @@ msgstr "&Filter:"
 msgctxt "Parameters"
 msgid "Include &unnamed and potentially unusable parameters"
 msgstr "Ta med ikke-navngitte og potensielt &ubrukelige parametre"
-
-msgctxt "Parameters"
-msgid "&Try setting value to detect steps"
-msgstr "&Prøv å sette verdi for å detektere trinn"
 
 msgctxt "Parameters"
 msgid "&Close"

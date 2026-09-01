@@ -11,23 +11,23 @@ msgstr ""
 "Project-Id-Version: osara\n"
 "Language-Team: Spanish, Mexico\n"
 "Language: es_MX\n"
-"PO-Revision-Date: 2026-08-15 18:52\n"
+"PO-Revision-Date: 2026-09-01 21:10\n"
 
 msgid "enabled"
-msgstr "habilitando"
+msgstr "activando"
 
 #. A recording mode.
 msgid "disabled"
-msgstr "deshabilitando"
+msgstr "desactivando"
 
 msgid "OSARA: Toggle"
 msgstr "OSARA: Alterna"
 
 msgid "OSARA: Enable"
-msgstr "OSARA: Habilita el"
+msgstr "OSARA: Activa el"
 
 msgid "OSARA: Disable"
-msgstr "OSARA: Deshabilita el"
+msgstr "OSARA: Desactiva el"
 
 msgctxt "optimal REAPER configuration"
 msgid "Would you like to adjust REAPER preferences for optimal compatibility with screen readers? Choosing yes will make the following changes:"
@@ -39,11 +39,11 @@ msgstr "1. Se desacoplará el Explorador de Medios para que obtenga el foco al a
 
 msgctxt "optimal REAPER configuration"
 msgid "2. Enable closing Media Explorer using the escape key."
-msgstr "2. Se habilitará el cierre del Explorador de Medios con la tecla Escape."
+msgstr "2. Se activará el cierre del Explorador de Medios con la tecla Escape."
 
 msgctxt "optimal REAPER configuration"
 msgid "3. Enable legacy file browse dialogs, so that REAPER specific options in the Open and Save As dialogs can be reached with the tab key."
-msgstr "3. Se habilitará la compatibilidad con los cuadros de diálogo antiguos de archivos, para que la tecla tab permita navegar las funciones de REAPER en los cuadros de diálogo de abrir y guardar."
+msgstr "3. Se activará la compatibilidad con los cuadros de diálogo antiguos de archivos, para que la tecla tab permita navegar las funciones de REAPER en los cuadros de diálogo de abrir y guardar."
 
 msgctxt "optimal REAPER configuration"
 msgid "4. Enable the space key to be used for check boxes and buttons in various windows, wherever that's more convenient than space playing the project."
@@ -81,7 +81,7 @@ msgid "Error writing configuration changes."
 msgstr "Ha ocurrido un error en la optimización. Ningún cambio fue aplicado."
 
 msgid "REAPER will now exit. Please restart REAPER  to apply the changes."
-msgstr "La optimización se ha aplicado correctamente para su uso con lectores de pantalla. Por favor, reinicie REAPER ahora para terminar."
+msgstr "La optimización se ha aplicado correctamente para su uso con lectores de pantalla. Por favor, reinicia REAPER ahora para terminar."
 
 msgid "Restart REAPER"
 msgstr "Reiniciar REAPER"
@@ -614,16 +614,16 @@ msgid "All Notes Off"
 msgstr "Todas las Notas Desactivadas"
 
 msgid "Omni On"
-msgstr "Omni encendido"
+msgstr "Omni activado"
 
 msgid "Omni Off"
-msgstr "Omni Apagado"
+msgstr "Omni desactivado"
 
 msgid "Mono On"
-msgstr "Modo Monofónico encendido"
+msgstr "Modo monofónico activado"
 
 msgid "Poly On"
-msgstr "Modo Polifónico Encendido"
+msgstr "Modo polifónico activado"
 
 #. MIDI poly aftertouch. {note} will be replaced with the note
 #. name and {value} will be replaced with the aftertouch value; e.g.
@@ -699,7 +699,7 @@ msgid "velocity -10"
 msgstr "velócity -10"
 
 msgid "velocity changed"
-msgstr "velócity cambiado"
+msgstr "velócity cambiada"
 
 #. Used when changing note length in the MIDI
 #. editor. {} is replaced by the number of notes, e.g. "3
@@ -915,16 +915,16 @@ msgstr[0] "{} valor cambiado"
 msgstr[1] "{} valores cambiados"
 
 msgid "Enabled MIDI inputs as step input"
-msgstr "Habilitando entradas MIDI como entrada por pasos"
+msgstr "Entradas MIDI como entrada por pasos activadas"
 
 msgid "Disabled MIDI inputs as step input"
-msgstr "Deshabilitando entradas MIDI como entrada por pasos"
+msgstr "Entradas MIDI como entrada por pasos desactivadas"
 
 msgid "Enabled  f1-f12 as step input"
-msgstr "Habilitando f1-f12 como entrada por pasos"
+msgstr "F1-F12 como entrada por pasos activadas"
 
 msgid "Disabled  f1-f12 as step input"
-msgstr "Deshabilitando f1-f12 como entrada por pasos"
+msgstr "F1-F12 como entrada por pasos desactivadas"
 
 #. used when reporting the number of muted notes.
 #. {} will be replaced by the number of muted notes. E.g. "3 notes muted"
@@ -969,10 +969,10 @@ msgstr[0] "{} evento desmuteado"
 msgstr[1] "{} eventos desmuteados"
 
 msgid "enabled snap to grid"
-msgstr "ajuste a la cuadrícula habilitado"
+msgstr "ajuste a la cuadrícula activado"
 
 msgid "disabled snap to grid"
-msgstr "ajuste a la cuadrícula deshabilitado"
+msgstr "ajuste a la cuadrícula desactivado"
 
 #. Reported when zooming in or out horizontally. {} will be
 #. replaced with the number of pixels per beat; e.g. 100 pixels/beat.
@@ -994,12 +994,12 @@ msgstr "{} píxeles/semitono"
 #. Reported in Parameters dialogs for a toggle (such as mute)
 #. which is on.
 msgid "on"
-msgstr "encendido"
+msgstr "activado"
 
 #. Reported in Parameters dialogs for a toggle (such as mute)
 #. which is off.
 msgid "off"
-msgstr "apagado"
+msgstr "desactivado"
 
 msgid "Unrestrict minimum"
 msgstr "Quitar mínimo"
@@ -1014,15 +1014,15 @@ msgid "Restrict maximum to current value"
 msgstr "Fijar máximo al valor actual"
 
 msgid "Channel lists must contain positive numbers separated by spaces."
-msgstr ""
+msgstr "Las listas de canales deben contener números positivos separados por espacios."
 
 msgid "Channels must be from 1 through 128."
-msgstr ""
+msgstr "Los canales solo pueden ser del 1 al 128."
 
 #. An error reported when the channels mapped to an an FX
 #. input or output could not be set.
 msgid "Could not set the channels."
-msgstr ""
+msgstr "No fue posible establecer los canales."
 
 msgid "low shelf"
 msgstr "filtro de shelving bajo"
@@ -1061,7 +1061,7 @@ msgstr "banda (alt 2)"
 #. whether a ReaEQ band is enabled. {} will be replaced with the band
 #. number; e.g. "band 2 enable".
 msgid "Band {} enable"
-msgstr "Banda {} habilitada"
+msgstr "Activar banda {}"
 
 #. A parameter in the FX Parameters dialog which adjusts
 #. the type of a ReaEQ band. {} will be replaced with the band number;
@@ -1072,32 +1072,32 @@ msgstr "Tipo de la banda {}"
 #. A category in the FX Parameters dialog containing input pin
 #. mappings.
 msgid "Inputs"
-msgstr ""
+msgstr "Entradas"
 
 #. The name of an unnamed input pin in the FX Parameters dialog.
 #. {} will be replaced with the pin number.
 msgid "Input {}"
-msgstr ""
+msgstr "Entrada {}"
 
 #. A parameter in the FX Parameters dialog which configures the
 #. track channels from which an input pin receives. {} is the pin name.
 msgid "{} receives from track channels"
-msgstr ""
+msgstr "la {} recibe de los canales de la pista"
 
 #. A category in the FX Parameters dialog containing output pin
 #. mappings.
 msgid "Outputs"
-msgstr ""
+msgstr "Salidas"
 
 #. The name of an unnamed output pin in the FX Parameters dialog.
 #. {} will be replaced with the pin number.
 msgid "Output {}"
-msgstr ""
+msgstr "Output {}"
 
 #. A parameter in the FX Parameters dialog which configures the
 #. track channels to which an output pin is sent. {} is the pin name.
 msgid "{} sends to track channels"
-msgstr ""
+msgstr "la {} se envía a los canales de la pista"
 
 msgid "FX Parameters"
 msgstr "Parámetros de FX"
@@ -1157,13 +1157,13 @@ msgid "post-fx"
 msgstr "post-fx"
 
 msgid "sends"
-msgstr ""
+msgstr "envíos"
 
 msgid "receives"
-msgstr ""
+msgstr "recepciones"
 
 msgid "hardware outputs"
-msgstr ""
+msgstr "salidas de hardware"
 
 msgid "mute"
 msgstr "muteo"
@@ -1309,7 +1309,7 @@ msgid "resumed Peak Watcher"
 msgstr "reanudando el Medidor de Picos"
 
 msgid "Peak Watcher not enabled"
-msgstr "El Medidor de Picos no está habilitado"
+msgstr "El Medidor de Picos no está activado"
 
 #. Used when reporting a length of time in measures.
 #. {} will be replaced with the number of measures; e.g.
@@ -1422,7 +1422,7 @@ msgstr "lectura"
 
 #. An automation mode.
 msgid "touch"
-msgstr "pulsación"
+msgstr "toque"
 
 #. An automation mode.
 msgid "write"
@@ -1504,13 +1504,13 @@ msgid "pan follow"
 msgstr "seguir paneo"
 
 msgid "width lead"
-msgstr "liderar tamaño"
+msgstr "liderar anchura"
 
 msgid "width follow"
-msgstr "seguir tamaño"
+msgstr "seguir anchura"
 
 msgid "mute lead"
-msgstr "liderar muteado"
+msgstr "liderar muteo"
 
 msgid "mute follow"
 msgstr "seguir muteado"
@@ -1522,7 +1522,7 @@ msgid "solo follow"
 msgstr "seguir solo"
 
 msgid "record arm lead"
-msgstr "liderar grabación armada"
+msgstr "liderar armado de grabación"
 
 msgid "record arm follow"
 msgstr "seguir grabación armada"
@@ -1546,7 +1546,7 @@ msgid "reverse pan"
 msgstr "revertir paneo"
 
 msgid "reverse width"
-msgstr "revertir tamaño"
+msgstr "revertir anchura"
 
 msgid "do not lead when following"
 msgstr "no liderar al seguir"
@@ -1557,7 +1557,7 @@ msgstr "Seguir VCA Pre-FX"
 #. The decimal point symbol.
 msgctxt "decimal"
 msgid "."
-msgstr ""
+msgstr "."
 
 msgid "grid whole"
 msgstr "cuadrícula en redondas"
@@ -1639,7 +1639,7 @@ msgid "{folder}, above {track}"
 msgstr "{folder}, arriba de {track}"
 
 msgid "defeating solo"
-msgstr "solo defeating"
+msgstr "solo seguro activado"
 
 msgid "phase inverted"
 msgstr "fase invertida"
@@ -1737,7 +1737,7 @@ msgstr[0] "{} pista desarmada"
 msgstr[1] "{} pistas desarmadas"
 
 msgid "record monitor off"
-msgstr "monitor de grabación apagado"
+msgstr "monitor de grabación desactivado"
 
 #. Record monitor set to normal.
 msgctxt "record monitor"
@@ -1775,10 +1775,10 @@ msgid "all tracks FX active"
 msgstr "activando FX en todas las pistas"
 
 msgid "enabled delta solo"
-msgstr "habilitar solo en modo delta"
+msgstr "solo en modo delta activado"
 
 msgid "disabled delta solo"
-msgstr "deshabilitar solo en modo delta"
+msgstr "solo en modo delta desactivado"
 
 #. Used when the start offset for looped or one-shot segment is exactly 0. The audible segment starts from the edit cursor position.
 msgid "start from cursor"
@@ -1901,12 +1901,12 @@ msgstr "centro"
 #. Panned to the left. {} will be replaced with the amount;
 #. e.g. "20% left".
 msgid "{}% left"
-msgstr ""
+msgstr "{}% a la izquierda"
 
 #. Panned to the right. {} will be replaced with the amount;
 #. e.g. "20% right".
 msgid "{}% right"
-msgstr ""
+msgstr "{}% a la derecha"
 
 msgid "ripple per-track"
 msgstr "ripple por-pista"
@@ -1915,7 +1915,7 @@ msgid "ripple all tracks"
 msgstr "ripple en todas las pistas"
 
 msgid "ripple off"
-msgstr "ripple apagado"
+msgstr "ripple desactivado"
 
 #. This message will be appended when duplicating, removing or pasting items with ripple per-track  enabled; E.G.
 #. "2 items removed ripple per track is on".
@@ -1929,7 +1929,7 @@ msgstr "con modo ripple en todas las pistas activado"
 
 #. Reported when auto crossfade and trim content behind media items are both enabled.
 msgid "enabled auto crossfades and trim"
-msgstr "auto-crossfades y recorte habilitados"
+msgstr "auto-crossfades y recorte activados"
 
 #. Reported when auto crossfade is enabled, trim behind media items is disabled.  
 msgid "crossfading, not trimming"
@@ -1941,13 +1941,13 @@ msgstr "recortando, sin hacer crossfade"
 
 #. Reported when auto crosfade and trim content behind media items are both disabled.
 msgid "disabled auto crossfades and trim"
-msgstr "auto-crossfades y recorte deshabilitados"
+msgstr "auto-crossfades y recorte desactivados"
 
 msgid "repeat on"
-msgstr "repetir encendido"
+msgstr "repetición activada"
 
 msgid "repeat off"
-msgstr "repetir apagado"
+msgstr "repetición desactivada"
 
 msgid "no takes"
 msgstr "sin tomas"
@@ -1993,10 +1993,10 @@ msgid "stretch marker"
 msgstr "marcador elástico"
 
 msgid "metronome on"
-msgstr "metrónomo encendido"
+msgstr "metrónomo activado"
 
 msgid "metronome off"
-msgstr "metrónomo apagado"
+msgstr "metrónomo desactivado"
 
 msgid "master track visible"
 msgstr "pista máster visible"
@@ -2107,25 +2107,25 @@ msgstr[1] "{} ítems desbloqueados"
 
 #. Reported when an action is used to enable loop source for an item.
 msgid "enabled loop source"
-msgstr "habilitando fuente de loop"
+msgstr "fuente de loop activada"
 
 #. Reported when an action is used to disable loopp source for an item.
 msgid "disabled loop source"
-msgstr "deshabilitando fuente de loop"
+msgstr "fuente de loop desactivada"
 
 #. Reported when loop source is enabled for multiple items. {} will be replaced
 #. with the number of items; e.g. "2 items enabled lloop source".
 msgid "{} item enabled loop source"
 msgid_plural "{} items enabled loop source"
-msgstr[0] "{} ítem con fuente de loop habilitada"
-msgstr[1] "{} ítems con fuente de loop habilitada"
+msgstr[0] "{} ítem con fuente de loop activada"
+msgstr[1] "{} ítems con fuente de loop activada"
 
 #. Reported when loop source is disabled for multiple items. {} will be
 #. replaced with the number of items; e.g. "2 items disabled loop source".
 msgid "{} item disabled loop source"
 msgid_plural "{} items disabled loop source"
-msgstr[0] "{} ítem con fuente de loop deshabilitada"
-msgstr[1] "{} ítems con fuente de loop deshabilitada"
+msgstr[0] "{} ítem con fuente de loop desactivada"
+msgstr[1] "{} ítems con fuente de loop desactivada"
 
 #. This is reported when users or REAPER automatically selects from the start of project to the cursor.
 msgid "selected from start of project to cursor"
@@ -2141,10 +2141,10 @@ msgid "master stereo"
 msgstr "máster en estéreo"
 
 msgid "crossfade on"
-msgstr "crossfade encendido"
+msgstr "crossfade activado"
 
 msgid "crossfade off"
-msgstr "crossfade apagado"
+msgstr "crossfade desactivado"
 
 msgid "trim behind items on"
 msgstr "recortar detrás de los ítems activado"
@@ -2153,10 +2153,10 @@ msgid "trim behind items off"
 msgstr "recortar detrás de los ítems desactivado"
 
 msgid "locking on"
-msgstr "bloqueo encendido"
+msgstr "bloqueo activado"
 
 msgid "locking off"
-msgstr "bloqueo apagado"
+msgstr "bloqueo desactivado"
 
 msgid "solo in front"
 msgstr "solo en modo primer plano"
@@ -2196,16 +2196,16 @@ msgstr[0] "{} toma en reversa"
 msgstr[1] "{} tomas en reversa"
 
 msgid "enabled pre roll before recording"
-msgstr "habilitar pre-roll antes de grabar"
+msgstr "pre-roll antes de grabar activado"
 
 msgid "disabled pre roll before recording"
-msgstr "deshabilitar pre-roll antes de grabar"
+msgstr "pre-roll antes de grabar desactivado"
 
 msgid "enabled count in before recording"
-msgstr "habilitar cuenta antes de grabar"
+msgstr "cuenta antes de grabar activada"
 
 msgid "disabled count in before recording"
-msgstr "deshabilitar cuenta antes de grabar"
+msgstr "cuenta antes de grabar desactivada"
 
 #. A take channel mode.
 msgctxt "take channel mode"
@@ -2243,10 +2243,10 @@ msgid "{} bpm"
 msgstr "{} bpm"
 
 msgid "enabled playback position follows project timebase when changing tempo"
-msgstr "la posición de reproducción sigue la base de tiempo del proyecto al cambiar el tempo"
+msgstr "posición de reproducción sigue base de tiempo al cambiar tempo activada"
 
 msgid "disabled playback position follows project timebase when changing tempo"
-msgstr "la posición de reproducción no sigue la base de tiempo del proyecto al cambiar el tempo"
+msgstr "posición de reproducción sigue base de tiempo al cambiar tempo desactivada"
 
 msgid "preserving pitch when changing play rate"
 msgstr "se mantiene el tono al cambiar la velocidad de reproducción"
@@ -2286,23 +2286,23 @@ msgstr[0] "{} pista seleccionada"
 msgstr[1] "{} pistas seleccionadas"
 
 msgid "not defeating solo"
-msgstr "solo no defeating"
+msgstr "solo seguro desactivado"
 
 #. report transient sensitivity. {} is replaced with the sensitivity percentage;
 #. E.g. "13% sensitivity"
 msgid "{}% sensitivity"
-msgstr ""
+msgstr "{}% de sensibilidad"
 
 #. Reported when changing the transient detection threshold.
 #. {} will be replaced with the threshold; e.g. "{} dB threshold".
 msgid "{} dB threshold"
-msgstr ""
+msgstr "{} dB de threshold"
 
 msgid "enabled envelope points move with media items"
-msgstr "moviendo puntos de envolvente con los ítems de audio"
+msgstr "movimiento de puntos de envolvente con los ítems activado"
 
 msgid "disabled envelope points move with media items"
-msgstr "dejar de mover puntos de envolvente con los ítems de audio"
+msgstr "movimiento de puntos de envolvente con los ítems desactivado"
 
 msgid "enabled free item positioning"
 msgstr "colocación libre de ítems activada"
@@ -2319,10 +2319,10 @@ msgid "{} semitones"
 msgstr "{} semitonos"
 
 msgid "enabled preserve pitch when changing item rate"
-msgstr "habilitar preservar el tono del ítem al cambiar la velocidad"
+msgstr "preservar tono al cambiar velocidad del ítem activado"
 
 msgid "disabled preserve pitch when changing item rate"
-msgstr "deshabilitar preservar el tono del ítem al cambiar la velocidad"
+msgstr "preservar tono al cambiar velocidad del ítem desactivado"
 
 msgid "minimum vertical zoom"
 msgstr "zoom vertical mínimo"
@@ -2380,8 +2380,14 @@ msgstr "Subiendo octava"
 msgid "Octave down"
 msgstr "Bajando octava"
 
+msgid "Increase MIDI velocity"
+msgstr "Aumentar velócity MIDI"
+
 msgid "Increase MIDI channel"
 msgstr "Aumentar el canal MIDI"
+
+msgid "Decrease MIDI velocity"
+msgstr "Disminuir velócity MIDI"
 
 msgid "Decrease MIDI channel"
 msgstr "Disminuir el canal MIDI"
@@ -2513,10 +2519,10 @@ msgid "seconds secondary"
 msgstr "segundos secundarios"
 
 msgid "enabled snap"
-msgstr "snap habilitado"
+msgstr "snap activado"
 
 msgid "disabled snap"
-msgstr "snap deshabilitado"
+msgstr "snap desactivado"
 
 msgid "auto playing"
 msgstr "reproducción automática"
@@ -2601,6 +2607,13 @@ msgstr "ocultando nombres de notas"
 
 msgid "length matching grid"
 msgstr "ajustando duración de notas a cuadrícula"
+
+#. Reported after closing REAPER windows. {} will be replaced
+#. with the number of windows; e.g. "2 windows closed".
+msgid "{} window closed"
+msgid_plural "{} windows closed"
+msgstr[0] "{} ventana cerrada"
+msgstr[1] "{} ventanas cerradas"
 
 #. Reported when there are no tracks to navigate to.
 msgid "no tracks"
@@ -2790,10 +2803,10 @@ msgid "stretch marker deleted"
 msgstr "marcador elástico eliminado"
 
 msgid "cleared time/loop selection"
-msgstr "selección de tiempo/loop eliminado"
+msgstr "selección de tiempo/loop eliminada"
 
 msgid "unselected tracks/items/envelope points"
-msgstr "deseleccionar pistas/ítems/puntos de envolvente"
+msgstr "pistas/ítems/puntos de envolvente deseleccionados"
 
 msgid "OSARA: Select items under edit cursor on selected tracks"
 msgstr "OSARA: Selecciona ítems en el cursor de edición en pistas seleccionadas"
@@ -3172,7 +3185,7 @@ msgid "OSARA: View FX parameters for master track"
 msgstr "OSARA: Ve los parámetros de FX para la pista máster"
 
 msgid "OSARA: Configure Peak Watcher for current track/FX (depending on focus)"
-msgstr ""
+msgstr "OSARA: Configura el Medidor de Picos para la pista/FX actual (según el foco)"
 
 msgid "OSARA: Report Peak Watcher value for first watcher first channel"
 msgstr "OSARA: Anuncia el valor del primer Medidor de Picos para el canal 1"
@@ -3208,7 +3221,7 @@ msgid "OSARA: Report record armed tracks"
 msgstr "OSARA: Anuncia las pistas armadas para grabación"
 
 msgid "OSARA: Report tracks with record monitor on"
-msgstr "OSARA: Anuncia las pistas con el monitor encendido"
+msgstr "OSARA: Anuncia las pistas con el monitor de grabación activado"
 
 msgid "OSARA: Report tracks with phase inverted"
 msgstr "OSARA: Anuncia las pistas con la fase invertida"
@@ -3225,6 +3238,9 @@ msgstr "OSARA: Elimina ítems/pistas/contenido de la selección de tiempo/marcad
 msgid "OSARA: Toggle shortcut help"
 msgstr "OSARA: Alterna la ayuda de teclado"
 
+msgid "OSARA: Close all windows and focus arrange view"
+msgstr "OSARA: Cierra todas las ventanas y enfoca la vista de arreglos"
+
 msgid "OSARA: Report edit/play cursor position, transport state and nearest markers and regions"
 msgstr "OSARA: Anuncia la posición del cursor de edición/reproducción, el estado del transporte, marcadores y regiones más cercanos"
 
@@ -3238,7 +3254,7 @@ msgid "OSARA: Report project length"
 msgstr "OSARA: Anuncia la duración total del proyecto"
 
 msgid "OSARA: Enable noncontiguous selection/toggle selection of current track/item (depending on focus)"
-msgstr "OSARA: Habilita la selección separada/alternar la selección de la pista/ítem actual (según el foco)"
+msgstr "OSARA: Activa la selección separada/alterna la selección de la pista/ítem actual (según el foco)"
 
 msgid "OSARA: Move last focused stretch marker to current edit cursor position"
 msgstr "OSARA: Mueve el último marcador elástico enfocado a la posición actual del cursor de reproducción"
@@ -3364,7 +3380,7 @@ msgid "OSARA: Open online documentation"
 msgstr "OSARA: Abre la documentación en línea"
 
 msgid "OSARA: Report tempo and time signature at play cursor; press twice to add/edit tempo markers"
-msgstr "OSARA: Anuncia el tempo y el compás en el cursor de reproducción; presione dos veces para agregar/editar marcadores de tempo"
+msgstr "OSARA: Anuncia el tempo y el compás en el cursor de reproducción; presiona dos veces para agregar/editar marcadores de tempo"
 
 msgid "OSARA: Report scrub segment offsets; press twice to edit"
 msgstr "OSARA: Anuncia los desplazamientos del segmento de scrub; presiona dos veces para editar"
@@ -3379,7 +3395,7 @@ msgid "OSARA: Analyze and show peak and loudness statistics for selected tracks/
 msgstr "OSARA: Se analizan y muestran las estadísticas de sonoridad y picos de las pistas o ítems seleccionados"
 
 msgid "OSARA: Enable noncontiguous selection/toggle selection of current chord/note"
-msgstr "OSARA: Habilita/deshabilita la selección separada en el acorde/nota actual"
+msgstr "OSARA: Activa/desactiva la selección separada en el acorde/nota actual"
 
 msgid "OSARA: Move forward to next single note or chord"
 msgstr "OSARA: Se mueve hacia adelante a la nota o acorde siguiente"
@@ -3473,10 +3489,6 @@ msgid "Include &unnamed and potentially unusable parameters"
 msgstr "Incluir parámetros sin &nombre y potencialmente no utilizables"
 
 msgctxt "Parameters"
-msgid "&Try setting value to detect steps"
-msgstr "&Intentar ajustar el valor para detectar incrementos"
-
-msgctxt "Parameters"
 msgid "&Close"
 msgstr "&Cerrar"
 
@@ -3510,7 +3522,7 @@ msgstr "Mantener nivel:"
 
 msgctxt "Peak Watcher"
 msgid "&disabled"
-msgstr "&deshabilitar"
+msgstr "&desactivar"
 
 msgctxt "Peak Watcher"
 msgid "&until reset"

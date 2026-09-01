@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: osara\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2026-08-15 18:52\n"
+"PO-Revision-Date: 2026-09-01 21:10\n"
 
 msgid "enabled"
 msgstr "activado"
@@ -1014,15 +1014,15 @@ msgid "Restrict maximum to current value"
 msgstr "Restricción máxima al valor actual"
 
 msgid "Channel lists must contain positive numbers separated by spaces."
-msgstr ""
+msgstr "Las listas de canales deben contener números positivos separados por espacios."
 
 msgid "Channels must be from 1 through 128."
-msgstr ""
+msgstr "Los canales deben estar entre 1 y 128."
 
 #. An error reported when the channels mapped to an an FX
 #. input or output could not be set.
 msgid "Could not set the channels."
-msgstr ""
+msgstr "No puedo configurar el canal."
 
 msgid "low shelf"
 msgstr "low shelf"
@@ -1072,32 +1072,32 @@ msgstr "Banda {} clase"
 #. A category in the FX Parameters dialog containing input pin
 #. mappings.
 msgid "Inputs"
-msgstr ""
+msgstr "Entradas"
 
 #. The name of an unnamed input pin in the FX Parameters dialog.
 #. {} will be replaced with the pin number.
 msgid "Input {}"
-msgstr ""
+msgstr "Entrada {}"
 
 #. A parameter in the FX Parameters dialog which configures the
 #. track channels from which an input pin receives. {} is the pin name.
 msgid "{} receives from track channels"
-msgstr ""
+msgstr "{} recibe de >pista canal"
 
 #. A category in the FX Parameters dialog containing output pin
 #. mappings.
 msgid "Outputs"
-msgstr ""
+msgstr "Salidas"
 
 #. The name of an unnamed output pin in the FX Parameters dialog.
 #. {} will be replaced with the pin number.
 msgid "Output {}"
-msgstr ""
+msgstr "Salida {}"
 
 #. A parameter in the FX Parameters dialog which configures the
 #. track channels to which an output pin is sent. {} is the pin name.
 msgid "{} sends to track channels"
-msgstr ""
+msgstr "{} envía a la pista canal"
 
 msgid "FX Parameters"
 msgstr "Parámetros de FX"
@@ -1157,13 +1157,13 @@ msgid "post-fx"
 msgstr "post-fx"
 
 msgid "sends"
-msgstr ""
+msgstr "envíos"
 
 msgid "receives"
-msgstr ""
+msgstr "recepciones"
 
 msgid "hardware outputs"
-msgstr ""
+msgstr "salidas hardware"
 
 msgid "mute"
 msgstr "silencio"
@@ -2380,8 +2380,14 @@ msgstr "Octava arriba"
 msgid "Octave down"
 msgstr "Octava abajo"
 
+msgid "Increase MIDI velocity"
+msgstr "Aumentar velocity en midi"
+
 msgid "Increase MIDI channel"
 msgstr "Aumentar canal midi"
+
+msgid "Decrease MIDI velocity"
+msgstr "Disminuir velocity en midi"
 
 msgid "Decrease MIDI channel"
 msgstr "Disminuir canal midi"
@@ -2602,6 +2608,13 @@ msgstr "ocultado nombre de notas"
 msgid "length matching grid"
 msgstr "longitud de la cuadrícula"
 
+#. Reported after closing REAPER windows. {} will be replaced
+#. with the number of windows; e.g. "2 windows closed".
+msgid "{} window closed"
+msgid_plural "{} windows closed"
+msgstr[0] "{} ventana cerrada"
+msgstr[1] "{} ventanas cerradas"
+
 #. Reported when there are no tracks to navigate to.
 msgid "no tracks"
 msgstr "no hay pistas"
@@ -2650,7 +2663,7 @@ msgstr "no hay ítem bajo el cursor"
 
 #. Reported when an item cannot be split because the cursor is already on its edge.
 msgid "already split at cursor"
-msgstr ""
+msgstr "ya dividido bajo el cursor"
 
 #. Reported when items are added. {} will be replaced with the
 #. number of items; e.g. "2 items added".
@@ -3225,6 +3238,9 @@ msgstr "OSARA: elimina Pistas/ítems/contenido de selección/marcadores/puntos d
 msgid "OSARA: Toggle shortcut help"
 msgstr "OSARA: cambia el modo de ayuda de atajos"
 
+msgid "OSARA: Close all windows and focus arrange view"
+msgstr "OSARA: cierra todas las ventanas y focaliza la organización de las vistas"
+
 msgid "OSARA: Report edit/play cursor position, transport state and nearest markers and regions"
 msgstr "OSARA: anuncia posición de cursor de edición o reproducción estado de reproducción grabación y las región o marcador cercano"
 
@@ -3471,10 +3487,6 @@ msgstr "&Filtro:"
 msgctxt "Parameters"
 msgid "Include &unnamed and potentially unusable parameters"
 msgstr "Incluir parámetros &sin nombrar y potencialmente no usables"
-
-msgctxt "Parameters"
-msgid "&Try setting value to detect steps"
-msgstr "&Prueba a ajustar un valor para detectar los pasos"
 
 msgctxt "Parameters"
 msgid "&Close"

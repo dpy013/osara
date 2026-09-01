@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: osara\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-08-15 18:52\n"
+"PO-Revision-Date: 2026-09-01 21:10\n"
 
 msgid "enabled"
 msgstr "已啟用"
@@ -1502,7 +1502,7 @@ msgstr "VCA pre-FX 跟隨"
 #. The decimal point symbol.
 msgctxt "decimal"
 msgid "."
-msgstr ". "
+msgstr "．"
 
 msgid "grid whole"
 msgstr "全往格"
@@ -2293,8 +2293,14 @@ msgstr "上移八度"
 msgid "Octave down"
 msgstr "下移八度"
 
+msgid "Increase MIDI velocity"
+msgstr "增加 MIDI 力度"
+
 msgid "Increase MIDI channel"
 msgstr "增加MIDI通道"
+
+msgid "Decrease MIDI velocity"
+msgstr "降低 MIDI 力度"
 
 msgid "Decrease MIDI channel"
 msgstr "減少MIDI通道"
@@ -2514,6 +2520,12 @@ msgstr "隱藏音符名稱"
 
 msgid "length matching grid"
 msgstr "長度依循網格"
+
+#. Reported after closing REAPER windows. {} will be replaced
+#. with the number of windows; e.g. "2 windows closed".
+msgid "{} window closed"
+msgid_plural "{} windows closed"
+msgstr[0] "{} 個視窗已關閉"
 
 #. Reported when there are no tracks to navigate to.
 msgid "no tracks"
@@ -3120,6 +3132,9 @@ msgstr "OSARA: 移除對象/軌道/時間選須的內容/標記/包絡點（取�
 msgid "OSARA: Toggle shortcut help"
 msgstr "OSARA: 切換熱鍵幫助"
 
+msgid "OSARA: Close all windows and focus arrange view"
+msgstr "OSARA: 關閉所有視窗並聚焦軌道排列視圖"
+
 msgid "OSARA: Report edit/play cursor position, transport state and nearest markers and regions"
 msgstr "OSARA: 報告編輯/播放遊標位置、走帶狀態以及最近的標記和區間"
 
@@ -3366,10 +3381,6 @@ msgstr "過濾器：(&F)"
 msgctxt "Parameters"
 msgid "Include &unnamed and potentially unusable parameters"
 msgstr "包含未命名的參數和可能無法使用的參數(&u)"
-
-msgctxt "Parameters"
-msgid "&Try setting value to detect steps"
-msgstr "嘗試設定值為偵測的步數(&T)"
 
 msgctxt "Parameters"
 msgid "&Close"

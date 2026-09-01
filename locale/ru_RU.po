@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: osara\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2026-08-15 18:52\n"
+"PO-Revision-Date: 2026-09-01 21:10\n"
 
 msgid "enabled"
 msgstr "включено"
@@ -2554,8 +2554,14 @@ msgstr "На октаву выше"
 msgid "Octave down"
 msgstr "На октаву ниже"
 
+msgid "Increase MIDI velocity"
+msgstr ""
+
 msgid "Increase MIDI channel"
 msgstr "Увеличить MIDI-канал"
+
+msgid "Decrease MIDI velocity"
+msgstr ""
 
 msgid "Decrease MIDI channel"
 msgstr "Уменьшить MIDI-канал"
@@ -2775,6 +2781,15 @@ msgstr "скрыты названия нот"
 
 msgid "length matching grid"
 msgstr "сетка соответствует длительности"
+
+#. Reported after closing REAPER windows. {} will be replaced
+#. with the number of windows; e.g. "2 windows closed".
+msgid "{} window closed"
+msgid_plural "{} windows closed"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Reported when there are no tracks to navigate to.
 msgid "no tracks"
@@ -3435,6 +3450,9 @@ msgstr "OSARA: Удалить элементы/треки/содержимое �
 msgid "OSARA: Toggle shortcut help"
 msgstr "OSARA: Переключить справку по горячим клавишам"
 
+msgid "OSARA: Close all windows and focus arrange view"
+msgstr ""
+
 msgid "OSARA: Report edit/play cursor position, transport state and nearest markers and regions"
 msgstr "OSARA: Сообщить о положении курсора при редактировании/воспроизведении, состоянии транспорта и ближайших маркерах и регионах"
 
@@ -3681,10 +3699,6 @@ msgstr "&Фильтр:"
 msgctxt "Parameters"
 msgid "Include &unnamed and potentially unusable parameters"
 msgstr "Включать &безымянные и потенциально непригодные для использования параметры"
-
-msgctxt "Parameters"
-msgid "&Try setting value to detect steps"
-msgstr ""
 
 msgctxt "Parameters"
 msgid "&Close"

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: osara\n"
 "Language-Team: French, Canada\n"
 "Language: fr_CA\n"
-"PO-Revision-Date: 2026-08-15 18:52\n"
+"PO-Revision-Date: 2026-09-01 21:10\n"
 
 msgid "enabled"
 msgstr "activé"
@@ -1014,15 +1014,15 @@ msgid "Restrict maximum to current value"
 msgstr "Restreindre le maximum à la valeur actuelle"
 
 msgid "Channel lists must contain positive numbers separated by spaces."
-msgstr ""
+msgstr "Les listes de canaux doivent contenir des nombres positifs séparés par des espaces."
 
 msgid "Channels must be from 1 through 128."
-msgstr ""
+msgstr "Les canaux doivent être compris entre 1 et 128."
 
 #. An error reported when the channels mapped to an an FX
 #. input or output could not be set.
 msgid "Could not set the channels."
-msgstr ""
+msgstr "Impossible de définir les canaux."
 
 msgid "low shelf"
 msgstr "plateau bas"
@@ -1072,32 +1072,32 @@ msgstr "Bande {} type"
 #. A category in the FX Parameters dialog containing input pin
 #. mappings.
 msgid "Inputs"
-msgstr ""
+msgstr "Entrées"
 
 #. The name of an unnamed input pin in the FX Parameters dialog.
 #. {} will be replaced with the pin number.
 msgid "Input {}"
-msgstr ""
+msgstr "Entrée {}"
 
 #. A parameter in the FX Parameters dialog which configures the
 #. track channels from which an input pin receives. {} is the pin name.
 msgid "{} receives from track channels"
-msgstr ""
+msgstr "{} reçoit des canaux de la piste"
 
 #. A category in the FX Parameters dialog containing output pin
 #. mappings.
 msgid "Outputs"
-msgstr ""
+msgstr "Sorties"
 
 #. The name of an unnamed output pin in the FX Parameters dialog.
 #. {} will be replaced with the pin number.
 msgid "Output {}"
-msgstr ""
+msgstr "Sortie {}"
 
 #. A parameter in the FX Parameters dialog which configures the
 #. track channels to which an output pin is sent. {} is the pin name.
 msgid "{} sends to track channels"
-msgstr ""
+msgstr "{} envoie vers les canaux de la piste"
 
 msgid "FX Parameters"
 msgstr "Paramètre d'FX"
@@ -2380,8 +2380,14 @@ msgstr "Octave vers le haut"
 msgid "Octave down"
 msgstr "Octave vers le bas"
 
+msgid "Increase MIDI velocity"
+msgstr "Augmenter la vélocité MIDI"
+
 msgid "Increase MIDI channel"
 msgstr "Augmenter le canal MIDI"
+
+msgid "Decrease MIDI velocity"
+msgstr "Diminuer la vélocité MIDI"
 
 msgid "Decrease MIDI channel"
 msgstr "Diminuer le canal MIDI"
@@ -2601,6 +2607,13 @@ msgstr "nom des notes masquées"
 
 msgid "length matching grid"
 msgstr "faire correspondre selon la longueur de la grille"
+
+#. Reported after closing REAPER windows. {} will be replaced
+#. with the number of windows; e.g. "2 windows closed".
+msgid "{} window closed"
+msgid_plural "{} windows closed"
+msgstr[0] "Un"
+msgstr[1] "Un"
 
 #. Reported when there are no tracks to navigate to.
 msgid "no tracks"
@@ -3225,6 +3238,9 @@ msgstr "OSARA: Supprime l'objet, piste, le contenu de la sélection temporelle, 
 msgid "OSARA: Toggle shortcut help"
 msgstr "OSARA: Basculer l'aide des raccourcis clavier"
 
+msgid "OSARA: Close all windows and focus arrange view"
+msgstr "OSARA: Fermer toutes les fenêtres et focusser la vue d'arrangement"
+
 msgid "OSARA: Report edit/play cursor position, transport state and nearest markers and regions"
 msgstr "OSARA: Énoncer la position du curseur d'édition/lecture, l'état du transport et les marqueurs/régions les plus proches"
 
@@ -3471,10 +3487,6 @@ msgstr "&Filtre:"
 msgctxt "Parameters"
 msgid "Include &unnamed and potentially unusable parameters"
 msgstr "Inclure les paramètres &sans nom et potentiellement inutilisables"
-
-msgctxt "Parameters"
-msgid "&Try setting value to detect steps"
-msgstr "&Essayez de définir une valeur pour détecter les étapes"
 
 msgctxt "Parameters"
 msgid "&Close"

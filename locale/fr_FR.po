@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: osara\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2026-08-15 18:52\n"
+"PO-Revision-Date: 2026-09-01 21:10\n"
 
 msgid "enabled"
 msgstr "activé"
@@ -2380,7 +2380,13 @@ msgstr ""
 msgid "Octave down"
 msgstr ""
 
+msgid "Increase MIDI velocity"
+msgstr ""
+
 msgid "Increase MIDI channel"
+msgstr ""
+
+msgid "Decrease MIDI velocity"
 msgstr ""
 
 msgid "Decrease MIDI channel"
@@ -2601,6 +2607,13 @@ msgstr ""
 
 msgid "length matching grid"
 msgstr ""
+
+#. Reported after closing REAPER windows. {} will be replaced
+#. with the number of windows; e.g. "2 windows closed".
+msgid "{} window closed"
+msgid_plural "{} windows closed"
+msgstr[0] ""
+msgstr[1] ""
 
 #. Reported when there are no tracks to navigate to.
 msgid "no tracks"
@@ -3225,6 +3238,9 @@ msgstr "OSARA: supprimer objet / piste / contenu de sélection temporelle / marq
 msgid "OSARA: Toggle shortcut help"
 msgstr "OSARA: active / désactive l'aide clavier"
 
+msgid "OSARA: Close all windows and focus arrange view"
+msgstr ""
+
 msgid "OSARA: Report edit/play cursor position, transport state and nearest markers and regions"
 msgstr ""
 
@@ -3470,10 +3486,6 @@ msgstr "&Filtre :"
 
 msgctxt "Parameters"
 msgid "Include &unnamed and potentially unusable parameters"
-msgstr ""
-
-msgctxt "Parameters"
-msgid "&Try setting value to detect steps"
 msgstr ""
 
 msgctxt "Parameters"
